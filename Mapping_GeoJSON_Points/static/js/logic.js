@@ -75,7 +75,7 @@ zoom: 2,
 // Pass map layers into layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 
-let airportData = "https://raw.githubusercontent.com/ddmarchlewski/Mapping_Earthquakes_GISH/Mapping_GeoJSON_Points/majorAirports.json";
+let airportData = "https://raw.githubusercontent.com/ddmarchlewski/Mapping_Earthquakes/Mapping_GeoJSON_Points/majorAirports.json";
 
 
 // Grabbing our GeoJSON data.
